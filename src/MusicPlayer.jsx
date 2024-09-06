@@ -1,3 +1,11 @@
+import CurrentlyPlaying from "./components/CurrentlyPlaying";
+import Playlist from "./components/Playlist";
+
 export default function MusicPlayer() {
-  return <p>Music player goes here</p>;
+  return (
+    <div className='mx-auto flex h-full w-full max-w-5xl flex-col overflow-hidden rounded-lg shadow-lg'>
+      <CurrentlyPlaying />
+      <Playlist />
+    </div>
+  );
 }
