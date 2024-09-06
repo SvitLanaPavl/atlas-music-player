@@ -3,7 +3,9 @@ import placeholder from '../assets/placeholder.svg'
 
 const CoverArt = () => {
   return (
-    <div><img src={placeholder} alt='placeholder image' /></div>
+    <div className='relative mb-6 aspect-square'>
+      <img src={placeholder} alt='placeholder image' className='h-full w-full rounded-md aspect-[400/400] object-cover block align-middle' />
+    </div>
   )
 }
 
