@@ -1,3 +1,11 @@
 {
-  "plugins": []
+  "plugins": [
+    "prettier-plugin-organize-imports",
+    "prettier-plugin-tailwindcss"
+  ],
+  "tailwindConfig": "./styles/tailwind.config.js",
+  "tailwindAttributes": ["myClassList"],
+  "tailwindFunctions": ["clsx"],
+  "tailwindPreserveWhitespace": true,
+  "tailwindPreserveDuplicates": true
 }
