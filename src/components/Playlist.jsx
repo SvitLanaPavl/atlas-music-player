@@ -3,8 +3,8 @@ import PlayListItem from './PlayListItem'
 
 const Playlist = () => {
   return (
-    <div className='border-t border-l-0 p-6 md:w-1/2 md:border-l md:border-t-0'>
-      <h3 className='mb-4 text-lg leading-7 font-semibold'>Playlist</h3>
+    <div className='border-t border-l-0 p-6 md:w-1/2 md:border-l md:border-customPurple-50 md:border-t-0'>
+      <h3 className='mb-4 text-lg text-customPurple-600 leading-7 font-semibold'>Playlist</h3>
       <PlayListItem title='Painted in Blue' artist='Soul Canvas' duration='5:55' isCurrent />
       <PlayListItem title='Tidal Drift' artist='Echoes of the Sea' duration='8:02' />
       <PlayListItem title='Fading Shadows' artist='The Emberlight' duration='3:01' />

@@ -1,7 +1,4 @@
 import React from 'react'
-import play from '../assets/play.svg'
-import forward from '../assets/forward.svg'
-import shuffle from '../assets/shuffle.svg'
 
 const PlayControls = () => {
   return (
